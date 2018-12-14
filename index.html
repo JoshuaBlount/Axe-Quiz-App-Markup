@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Smash Brothers Quiz!</title>
+    <meta name='description' content='Go through a series of ten questions based on the players of super smash bros melee'>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role='banner'>
+      <div>
+        <img class='gamecube' src='https://www.freeiconspng.com/minicovers/gamecube-icon-22.png' alt='gamecube logo'>
+      </div>
+    </header>
+    <main role='main'>
+      <section id='main-screen'>
+        <h1>Do you think you know the best of melee?</h1>
+        <h2>To begin hit start quiz!</h2>
+        <button id='start-quiz' class='button'>Start Quiz</button>
+      </section>
+      <!-- questions page -->
+      <section id='questionPage'  role='region'>
+        <div class='form'>
+          <form role='form'>
+            <fieldset>
+              <legend id='question'>Question text</legend>
+              <div class='questionChoice'>
+              </div>
+            </fieldset>
+            <button id='submit' class='button' type='submit'>Submit Answer</button>
+          </form>
+        </div>
+      </section>
+      <p class='questionNum'></p>
+      <p class='questionScore'></p>
+      <!-- feedback page -->
+      <section id='feedback'  role='region'>
+        <h2 id='rightAnswer'>Thats Correct, Great Job</h2>
+        <button id='nextQuestion' class='button'>Next Question</button>
+      </section>
+
+      <!--end page -->
+      <section id='resultsPage' role='region'>
+        <div class='passingScore'>
+         <h2> Congratulations you passed!</h2>
+        </div>
+        <div class='failingScore'>
+          <h2>Sorry you failed!</h2>
+        </div>
+        <button id='restartQuiz'>Restart Quiz</button>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

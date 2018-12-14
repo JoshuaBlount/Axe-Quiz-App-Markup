@@ -1,0 +1,71 @@
+/* display for main screen */
+#main-screen {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+    font-family: 'Metrophobic', sans-serif;
+    background-color: #ffffff;
+    background: url('https://i.imgur.com/JcI1fEq.png') fixed;
+    color:#fefefe;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+ul {
+  display: inline;
+  font-size: xx-large;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+}
+
+form {
+  width: 320px;
+  padding: 20px, 10px;
+  line-height: 50px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+#feedback {
+  text-align: center;
+}
+
+#question {
+  font-size: 22px;
+  font-weight: 900px;
+}
+
+.questionChoice {
+  font-size: 20px;
+  font-weight: 900px;
+}
+
+/* hides questions */
+.questionPage {
+  display: none;
+  text-align: center;
+}
+
+/* hides feedback page */
+.feedback{
+  display: none;
+}
+
+#rightAnswer {
+  display: none;
+}
